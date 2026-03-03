@@ -290,6 +290,24 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      <footer className="mt-12 border-t border-gray-200 pt-8 pb-4 text-center">
+        <div className="space-y-4">
+          <div className="flex flex-wrap justify-center gap-4 text-sm">
+            <a href="https://github.com/callmegerlad/theme-picker" target="_blank" className="text-gray-600 hover:text-gray-900 transition">GitHub</a>
+            <span className="text-gray-300">•</span>
+            <a href="https://www.geraldkjk.com/" target="_blank" className="text-gray-600 hover:text-gray-900 transition">Portfolio</a>
+            <span className="text-gray-300">•</span>
+            <a href="https://www.linkedin.com/in/geraldkjk/" target="_blank" className="text-gray-600 hover:text-gray-900 transition">LinkedIn</a>
+          </div>
+
+          <div className="pt-2 border-t border-gray-100">
+            <p className="text-xs text-gray-500">
+              © {new Date().getFullYear()} Gerald Koh. Built w/ Next.js & Tailwind CSS.
+            </p>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
